@@ -1,0 +1,5 @@
+ntp_enabled: true
+ntp_timezone: Europe/Vienna
+ntp_area: at
+ntp_tinker_panic: true
+

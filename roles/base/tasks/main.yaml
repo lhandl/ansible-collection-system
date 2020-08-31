@@ -1,0 +1,4 @@
+---
+- include: motd.yaml
+- include: packages.yaml
+- include: ntp.yaml

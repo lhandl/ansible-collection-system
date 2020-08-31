@@ -1,0 +1,14 @@
+---
+- name: Make sure base packages are installed
+  package:  pkg={{ item }} state=latest
+  with_items:
+  - mc
+  - sysstat
+  - nmon
+  - mlocate
+
+- name: upgrade all packages
+  yum:
+    name: '*'
+    state: latest
+  

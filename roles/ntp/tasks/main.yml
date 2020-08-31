@@ -1,0 +1,9 @@
+---
+- name: import ntp role
+  import_role:
+    name: geerlingguy.ntp
+  vars:
+    ntp_enabled: true
+    ntp_manage_config: true
+    ntp_area: at
+    ntp_timezone: Europe/Vienna
